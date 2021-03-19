@@ -1,0 +1,21 @@
+.login-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-content form h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.login-content form{
+    width: 70%;
+}
+.main-content{
+    padding: 100px 50px;
+}
+@media only screen and (max-width: 600px) {
+    .main-content{
+        padding: 50px 25px;
+    }
+  }
