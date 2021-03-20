@@ -26,8 +26,8 @@ function Header() {
                 <Nav className="ml-auto">
                     <Link style={linkStyle} to="/">Home</Link>
                     <Link style={linkStyle} to="/destination">Destination</Link>
-                    <Link style={linkStyle} to="/blog">Bloc</Link>
-                    <Link style={linkStyle} to="/contuct">Contuct</Link>
+                    <Link style={linkStyle} to="/blog">Blog</Link>
+                    <Link style={linkStyle} to="/contuct">Contact</Link>
                     {loginUser.email ? <button onClick={handleSignOut} className='btn btn-success'>Sign Out</button>:<Link style={linkStyle} className='btn btn-success' to="/login">Login</Link>}
                 </Nav>
             </Navbar>
