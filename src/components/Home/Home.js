@@ -20,9 +20,9 @@ function Home() {
             <CardDeck>
                 
                     <Card style={cardStyle} onClick={()=> handlerCategorys('/car')}>
-                        <Card.Img variant="top" src={bus} />
+                        <Card.Img variant="top" src={car} />
                         <Card.Body>
-                            <Card.Title className='text-center'>Bus</Card.Title>
+                            <Card.Title className='text-center'>Car</Card.Title>
                         </Card.Body>
                     </Card>
                 
@@ -35,9 +35,9 @@ function Home() {
                 </Card>
 
                 <Card style={cardStyle} onClick={()=> handlerCategorys('/bus')}>
-                    <Card.Img variant="top" src={car} />
+                    <Card.Img variant="top" src={bus} />
                     <Card.Body>
-                        <Card.Title className='text-center'>Car</Card.Title>
+                        <Card.Title className='text-center'>Bus</Card.Title>
                     </Card.Body>
                 </Card>
 

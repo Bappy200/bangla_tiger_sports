@@ -1,0 +1,23 @@
+.main-section{
+    display: flex;
+    padding: 50px 100px;
+}
+.search-section{
+    width: 35%;
+    padding-right: 10px;
+}
+.google-map-section{
+    width: 65%;
+}
+@media only screen and (max-width: 600px) {
+    .main-section{
+        padding: 25px 50px;
+        flex-direction: column;
+    }
+    .search-section{
+        width: 100%;
+    }
+    .google-map-section{
+        width: 100%;
+    }
+  }

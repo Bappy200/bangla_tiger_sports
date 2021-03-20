@@ -1,9 +1,10 @@
 import React from 'react'
-
+import { train } from '../../fackData'
+import SearchItem from '../SearchItem/SearchItem'
 function Train() {
     return (
         <div>
-            <h2>train is comming</h2>
+            <SearchItem data={train}/>
         </div>
     )
 }

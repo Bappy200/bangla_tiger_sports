@@ -1,9 +1,11 @@
 import React from 'react'
+import { bus } from '../../fackData'
+import SearchItem from '../SearchItem/SearchItem'
 
 function Bus() {
     return (
         <div>
-            <h2>Bus is comming</h2>
+            <SearchItem data={bus}/>
         </div>
     )
 }
