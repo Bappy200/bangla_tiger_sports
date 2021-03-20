@@ -10,6 +10,7 @@ function SearchItem(props) {
 
     return (
        <div className='main-section'>
+
             <div className='search-section'>
             <span>Pick From</span>
             <input className='form-control' placeholder='Pick From' required/>
@@ -17,6 +18,7 @@ function SearchItem(props) {
             <span>Pick To</span>
             <input className='form-control' placeholder='Pick To' required/>
             <button className='btn btn-success' onClick={()=> setDisplay(true)} >Search</button>
+            
             {
                 display && <ul style={{margin:'0px',padding:'0px'}}>
                     {

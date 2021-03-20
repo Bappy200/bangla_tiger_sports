@@ -1,10 +1,10 @@
 import React from 'react'
-import { bike } from '../../fackData'
+import { car } from '../../fackData'
 import SearchItem from '../SearchItem/SearchItem'
 function Car() {
     return (
         <div>
-            <SearchItem data={bike}/>
+            <SearchItem data={car}/>
         </div>
     )
 }
